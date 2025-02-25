@@ -23,4 +23,8 @@ public enum TipoAnimal {
         throw new IllegalArgumentException("Tipo de animal " + tipo + " no encontrado");
     }
 
+    public String ToString() {
+        return name().toLowerCase();
+    }
+
 }
