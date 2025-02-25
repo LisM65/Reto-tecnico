@@ -23,6 +23,7 @@ public class Animal implements IAnimal {
 
     @Override
     public TipoAnimal getTipo() {
+
         return tipo;
     }
 

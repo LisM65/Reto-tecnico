@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import com.reto.animales.config.AppConfig;
 import com.reto.animales.controller.AnimalController;
 import com.reto.animales.models.Animal;
-import org.springframework.objenesis.instantiator.basic.NewInstanceInstantiator;
+//
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -33,7 +33,6 @@ public class Main {
             System.out.println(menu);
             opcion = teclado.nextInt();
             teclado.nextLine();
-
             switch (opcion) {
                 case 1:
                     String nombre = teclado.nextLine();
